@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: segoe-ui_light, segoe UI Light, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
+	color: #526573;
+}
+header {
+	padding: 6px 0;
+	background-color: lightgreen;
+}
+
+.cantainer {
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	float: left;
+	width: 50%
+
+}
+
+.logo{
+	width: 100px;
+	height: 48px;
+	background: url(../img/logo.png) center center no-repeat;
+
+}
+
+.phone-number {
+	float: right;
+	color: white;
+
+}
+.phone-number .icon {
+	float: left;
+	background: url(../img/telephone-icon.png) center center no-repeat;
+	width: 30px;
+	height: 20px;
+	margin-top: 14px;
+
+}
+.phone-number .text {
+	display: inline-block;
+	margin-top: 11px;
+	margin-left: 10px;
+	font-size: 17px;
+}
